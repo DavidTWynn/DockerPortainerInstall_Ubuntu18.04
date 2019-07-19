@@ -5,10 +5,12 @@ don't have to type sudo before docker, then install portainer with persistant st
 
 ## Getting Started
 
+```
 sudo git clone https://github.com/DavidTWynn/DockerPortainerInstall_Ubuntu18.04 /opt/dpinstall
 cd /opt/dpinstall
 sudo chmod 775 DockerPortainerInstall.sh
 ./DockerPortainerInstall.sh
+```
 
 ### Prerequisites
 
@@ -22,10 +24,12 @@ Default account is admin/tryportainer then create a new account
 
 ## Troubleshooting
 
+```
 docker ps -- List running containers
 docker ps -a -- List all containers
 sudo netstat tulpn -- Check that portainer is listening on port 9000 that matches what docker ps says
 systemctl status docker -- Check the status of the docker service
+```
 
 ## Resources
 
