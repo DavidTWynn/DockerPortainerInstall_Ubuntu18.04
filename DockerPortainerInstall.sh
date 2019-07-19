@@ -9,6 +9,7 @@ echo "Adding current user to docker group"
 sudo apt install docker-ce
 sudo usermod -aG docker ${USER}
 su - ${USER}
+exit
 
 echo "Installing portainer" 
 docker volume create portainer_data
