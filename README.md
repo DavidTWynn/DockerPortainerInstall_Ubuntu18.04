@@ -4,5 +4,6 @@ This script will update your repo to get Docker from docker.com, install docker,
 don't have to type sudo before docker, then install portainer with persistant storage in the portainer_data volume. 
 
 Resources:
+
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
 https://www.portainer.io/installation/
