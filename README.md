@@ -27,7 +27,7 @@ Default account is admin/tryportainer then create a new account
 ```
 docker ps    -- List running containers
 docker ps -a    -- List all containers
-sudo netstat tulpn    -- Check that portainer is listening on port 9000 that matches what docker ps says
+sudo netstat -tulpn    -- Check that portainer is listening on port 9000 that matches what docker ps says
 systemctl status docker    -- Check the status of the docker service
 ```
 
